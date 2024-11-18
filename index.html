@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sentencias de Java script basicas</title>
+</head>
+<body>
+    <h1>Abre la consola</h1>
+    
+    <script>
+        console.log("Hola, soy la consola");
+
+        var primer_nombre = "Emiliano";
+        console.log(primer_nombre);
+
+        var apellido = "Bettan";
+        console.log(apellido);
+
+        var nombre_completo = primer_nombre.concat(apellido)
+        console.log(nombre_completo)
+
+        var longitud = nombre_completo.length
+        console.log(longitud);
+
+        var nombre_uno = "Yo soy Emiliano Bettan";
+        console.log(nombre_uno)
+        var remplaso_nombre = nombre_uno.replace("Emiliano", "Sabrina");
+        console.log(remplaso_nombre);
+        
+        var nombre_mayusculas = "EMILIANO";
+        var convertir_minusculas = nombre_mayusculas.toLowerCase();
+        console.log(convertir_minusculas)
+
+
+
+        var nombre_minusculas = "EMILIANO";
+        var convertir_mayusculas = nombre_mayusculas.toLowerCase();
+        console.log(convertir_mayusculas)
+
+        var Raiz_cuadrada = Math.sqrt(16);
+        console.log(Raiz_cuadrada);
+
+        var num_maximo =Math.max(15, 10, 8)
+        console.log(num_maximo)
+
+
+        var num_minimo =Math.min(15, 10, 8)
+        console.log(num_minimo)
+
+        var potencia =Math.pow(4, 2);
+        console.log(potencia);
+
+        var incrementar_numero = 10;
+        incrementar_numero++;
+        console.log(incrementar_numero);
+
+       var diminuir_numero = 10;
+       diminuir_numero--;
+       console.log(diminuir_numero);
+
+       var numero_grande = 32123.4567654;
+       console.log(numero_grande)
+
+       var numero_arreglado = numero_grande.toFixed(2);
+       console.log(numero_arreglado);
+       var numero_uno = 12;
+       var numero_dos = 3;
+
+       console.log(numero_uno + numero_dos);
+
+       var numero_uno_string = numero_uno.toString();
+       var numero_dos_string = numero_dos.toString();
+
+       console.log(numero_uno_string + numero_dos_string);
+       var tipo_numero = 6;
+       console.log(typeof tipo_numero);
+
+var frase = "HELLO WORLD";
+console.log(typeof frase);
+
+        </script>
+
+</body>
+</html>
